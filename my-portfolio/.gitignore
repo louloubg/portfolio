@@ -1,23 +1,56 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Build output
+build/
+dist/
 
-# testing
-/coverage
+# Logs
+logs/
+*.log
 
-# production
-/build
-
-# misc
-.DS_Store
+# dotenv environment variables file
+.env
 .env.local
+.env.*
 .env.development.local
 .env.test.local
 .env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# React testing outputs
+coverage/
+
+# Docker-related files
+docker-compose.override.yml
+*.dockerignore
+
+# Mac system files
+*.DS_Store
+
+# TypeScript
+*.tsbuildinfo
+
+# ESLint
+.eslintcache
+
+# Temporary or cache files
+.cache/
+*.tmp
+.parcel-cache/
+
+# Frameworks
+.next/
+.out/
+storybook-static/
