@@ -3,14 +3,14 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import StarsCanvas from "@/components/StarsBackground";
+import Stars from "@/components/StarsBackground";
 import Navbar from "@/components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ibiimemon.com/"),
-  title: "Ibrahim Memon - SWE | IXD | UX - Developer Portfolio",
+  title: "Louis Bourguet Portfolio",
   description:
     "Developer Portfolio of Frontend & Mobile App Developer from Pakistan with 3+ years of expertise. Senior Software Engineer. Specializing mobile apps, UX, and JavaScript technologies.",
   keywords: [
@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     "Android",
   ],
   openGraph: {
-    title: "Ibrahim Memon - SWE | IXD | UX",
+    title: "Louis Bourguet Portfolio",
     description:
       "Frontend & Mobile App Developer from Pakistan with 3+ years of expertise. Senior Software Engineer. Specializing mobile apps, UX, and JavaScript technologies.",
-    images: "/OpenGraph.jpg",
+    images: "/photo_profil.png",
   },
   alternates: {
     canonical: "https://ibiimemon.com/",
@@ -42,15 +42,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <head>
+        <link rel="icon" href="favicon.ico" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "http://schema.org",
               "@type": "Person",
-              name: "Ibrahim Memon",
+              name: "Louis Bourguet",
               jobTitle: "Software Engineer",
               url: "https://ibiimemon.com",
               sameAs: [
@@ -81,7 +82,7 @@ export default function RootLayout({
       >
         <SpeedInsights />
         <Analytics />
-        <StarsCanvas />
+        <Stars />
         <Navbar />
         {children}
       </body>

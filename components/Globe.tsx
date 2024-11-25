@@ -35,7 +35,7 @@ export const Cobe: React.FC = () => {
       markers: [],
       onRender: (state: any) => {
         state.phi = phi;
-        phi += 0.005;
+        phi += 0.01;
         state.width = width * 2;
         state.height = width * 2;
       },
