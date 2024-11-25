@@ -13,10 +13,7 @@ const About: React.FC<{}> = () => {
           EXPLORE NOW
         </p>
         <p className="text-gray-300 text-center ">
-          As a passionate software engineer, I thrive on the intricate dance
-          between logic and creativity. Currently immersed in the dynamic world
-          of WebHR, my expertise centers around React Native, where I seamlessly
-          blend technology with innovation.
+          Clarisse fait semblant de travailler depuis 1 an
           <br />
           <br />
           With a fervor for crafting elegant solutions, I navigate the

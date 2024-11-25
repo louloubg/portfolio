@@ -1,3 +1,5 @@
+import { redirect } from "next/navigation";
+
 export const Social_Icons = [
   {
     link: "https://github.com/ibrahimmemonn",
@@ -20,3 +22,7 @@ export const Social_Icons = [
     alt: "Ibrahim Memon - Social Media",
   },
 ];
+
+export default function Home() {
+  redirect("/about"); // Redirige toujours vers la page À PROPOS
+}

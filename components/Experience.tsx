@@ -29,12 +29,7 @@ const Experience: React.FC<{}> = () => {
         </div>
 
         <p className="text-gray-300 pt-5">
-          Currently, I am working on WebHR Mobile Application, WebHR is a Cloud
-          based Social HR Software for SMEs by Verge Systems Inc. WebHR is
-          currently used in over 160 countries world wide by thousands of
-          organizations to manage HR, As a React.js developer with 2.5 year of
-          experience, I have a strong foundation in creating dynamic and
-          responsive mobile and web applications.
+          Clarrise arrête de faire semblant dee travailler
           <br />
           <br />
           My experience with React Native has allowed me to develop

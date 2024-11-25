@@ -24,7 +24,7 @@ const Projects: React.FC<{}> = () => {
                 src="/FirstProject.png"
                 height={150}
                 width={150}
-                alt="Ibrahim Memon - UX Design Project"
+                alt="Louis Bourguet - Ingénieur en méthodes digitales"
               />
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">WebHR</p>
