@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
-import { Social_Icons } from "@/constant";
+import { Social_Icons } from "@/app/constant";
 import Image from "next/image";
 import Link from "next/link";
 

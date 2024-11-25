@@ -7,7 +7,7 @@ import Stars from "@/components/StarsBackground";
 import Navbar from "@/components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
-
+/*
 export const metadata: Metadata = {
   metadataBase: new URL("https://ibiimemon.com/"),
   title: "Louis Bourguet Portfolio",
@@ -36,20 +36,27 @@ export const metadata: Metadata = {
     canonical: "https://ibiimemon.com/",
   },
 };
+*/
+
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
-}) {
+}) 
+  
+
+
+{
   return (
     <html lang="fr">
       <head>
         <link rel="icon" href="favicon.ico" />
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              "@context": "http://schema.org",
+              "@context": "http://schexma.org",
               "@type": "Person",
               name: "Louis Bourguet",
               jobTitle: "Software Engineer",
@@ -75,16 +82,17 @@ export default function RootLayout({
               gtag('config', 'G-${process.env.NEXT_PRIVATE_GTID}');
             `,
           }}
-        />
+        /> */}
       </head>
       <body
         className={`${inter.className} bg-[#111] overflow-y-scroll overflow-x-hidden`}
       >
-        <SpeedInsights />
-        <Analytics />
         <Stars />
         <Navbar />
-        {children}
+        {/* Ajout de la balise <main> avec l'image de fond */}
+
+          {children}
+
       </body>
     </html>
   );
