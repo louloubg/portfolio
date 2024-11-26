@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Important pour les arrière-plans */
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+/* Définir un fond noir pour tout le site */
+body {
+  background-color: #000; /* Noir */
+  color: #fff; /* Blanc pour le texte pour assurer la lisibilité */
+  margin: 0; /* Supprime les marges par défaut */
+  padding: 0; /* Supprime les paddings par défaut */
+  font-family: Arial, sans-serif; /* Optionnel : Définir une police de base */
+}

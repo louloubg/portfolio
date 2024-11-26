@@ -19,20 +19,11 @@ const Navbar: React.FC = () => {
         backgroundColor: "transparent",
         position: "fixed",
         width: "100%",
-        top: 0,
+        top: 40,
         zIndex: 1000,
       }}
     >
-      {/* Logo à gauche */}
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          flex: "1",
-        }}
-      >
-        <Cobe />
-      </div>
+
 
       {/* Menu centré */}
       <ul
@@ -77,18 +68,7 @@ const Navbar: React.FC = () => {
         ))}
       </ul>
 
-      {/* Langue à droite */}
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "flex-end",
-          flex: "1",
-          marginRight: "25px", // Décalage du sélecteur
-        }}
-      >
-        <SelecteurLangue />
-      </div>
+
     </nav>
   );
 };
